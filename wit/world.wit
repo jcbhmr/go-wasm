@@ -1,0 +1,6 @@
+package jcbhmr:go@1.24.5-rc1;
+
+world std {
+    export builtin;
+    export time;
+}
