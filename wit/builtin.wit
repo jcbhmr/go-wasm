@@ -1,8 +1,15 @@
 package jcbhmr:go@1.24.5-rc1;
 
 interface builtin {
+    
+        
+    resource any {}
+
+    resource complex128 {}
+
+    resource complex64 {}
+
     resource error {
-        /// For some reason the wit-bindgen-go tool chokes when this function is named "error".
         error2: func() -> string;
     }
 }
